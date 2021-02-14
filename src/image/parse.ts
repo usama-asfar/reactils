@@ -25,9 +25,9 @@ export default function parseImage(
 }
 
 export type imageDimensionResolveType = {
-  size: Number
-  type: String
-  height: Number
-  width: Number
-  base64: String
+  size: number
+  type: string
+  height: number
+  width: number
+  base64: string
 }

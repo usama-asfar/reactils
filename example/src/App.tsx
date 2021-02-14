@@ -1,8 +1,14 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 
-import { file } from 'reactils'
+import { image, hooks, utils } from 'reactils'
 
 const App = () => {
+  const [height, width] = hooks.useWindowDimension()
+
+  const [file, setFile] = useState(
+    'data:image/jpeg;base64,iVBOkiYwmOIYJXxH4r7WLwgFoGBAAAAAElFTkSuQmCC'
+  )
+
   return (
     <div className='App'>
       <form>
@@ -10,13 +16,25 @@ const App = () => {
           type='file'
           onChange={async (e) => {
             if (e.target.files) {
-              const dimension = await file.parseImage(e.target.files[0])
-              console.log(dimension)
+              console.log('resized')
+              const resized = await image.resize(e.target.files[0], {
+                width: 500,
+                height: 600
+              })
+
+              const cc = await image.compress(resized, 100)
+
+              setFile(cc)
+              // handleLoadAvatar(e)
             }
           }}
         />
       </form>
-      {/* <p>width: , height: {height}</p> */}
+      <p>
+        width: {width}, height: {height}
+      </p>
+
+      <img src={file} />
     </div>
   )
 }

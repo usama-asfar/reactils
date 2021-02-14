@@ -1,1 +1,1 @@
-export { default as useImageDimension } from './file/useImageDimension'
+export { default as useWindowDimensionHooks } from './useWindowDimension'

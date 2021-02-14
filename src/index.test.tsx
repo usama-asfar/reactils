@@ -1,7 +1,10 @@
-import { ExampleComponent } from '.'
+import { file } from '.'
 
-describe('ExampleComponent', () => {
-  it('is truthy', () => {
-    expect(ExampleComponent).toBeTruthy()
-  })
+describe('File utilities', () => {
+  // it('File parseImage ', async () => {
+  //   const response = await file.parseImage()
+  // })
+  // it('is truthy', () => {
+  //   expect(ExampleComponent).toBeTruthy()
+  // })
 })

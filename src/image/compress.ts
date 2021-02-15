@@ -1,4 +1,4 @@
-import { base64TypeFile } from '../file'
+import { getBase64TypeFile } from '../file'
 
 export default function compress(
   base64: string,
@@ -7,7 +7,7 @@ export default function compress(
   return new Promise((resolve, reject) => {
     const canvas = document.createElement('canvas')
     const image = document.createElement('img')
-    const type = base64TypeFile(base64)
+    const type = getBase64TypeFile(base64)
 
     image.onload = function () {
       const width = image.width

@@ -17,3 +17,13 @@ Listen to window resize
 ```jsx
 const [height, width] = hooks.useWindowDimension()
 ```
+
+### useReloadAlert
+
+Alert before browser reload
+
+- usage
+
+```jsx
+hooks.useReloadAlert()
+```

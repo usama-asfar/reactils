@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="" rel="noopener" target="_blank"><img width="150" src="https://repository-images.githubusercontent.com/338741276/aeffc180-8083-11eb-9abc-3e320b7db3d0" alt="Reactils Logo"></a></p>
+  <a href="" rel="noopener" target="_blank"><img width="150" src="https://repository-images.githubusercontent.com/338741276/aeffc180-8083-11eb-9abc-3e320b7db3d0" alt="Reactils Logo"></a>
 </p>
 
 <h1 align="center">Reactils

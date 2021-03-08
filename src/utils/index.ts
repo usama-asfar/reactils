@@ -1,1 +1,1 @@
-export { default as windowDimensionUtils } from './windowDimension'
+export { default as windowDimensionUtil } from './windowDimension'

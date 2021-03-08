@@ -1,10 +1,11 @@
-import { windowDimensionUtils } from './utils'
-import { useWindowDimensionHooks } from './hooks'
+import { windowDimensionUtil } from './utils'
+import { useWindowDimensionHook, useReloadAlertHook } from './hooks'
 
 export const utils = {
-  windowDimension: windowDimensionUtils
+  windowDimension: windowDimensionUtil
 }
 
 export const hooks = {
-  useWindowDimension: useWindowDimensionHooks
+  useWindowDimension: useWindowDimensionHook,
+  useReloadAlert: useReloadAlertHook
 }

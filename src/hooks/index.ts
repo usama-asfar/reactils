@@ -1,1 +1,2 @@
-export { default as useWindowDimensionHooks } from './useWindowDimension'
+export { default as useWindowDimensionHook } from './useWindowDimension'
+export { default as useReloadAlertHook } from './useReloadAlert'

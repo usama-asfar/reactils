@@ -11,8 +11,4 @@
 - Hooks
 
   - [useWindowDimension](utility/hooks.md?id=useWindowDimension)
-
-- Image
-  - [parse](utility/image.md?id=parse)
-  - [resize](utility/image.md?id=resize)
-  - [compress](utility/image.md?id=compress)
+  - [useReloadAlert](utility/hooks.md?id=useReloadAlert)

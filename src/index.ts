@@ -1,22 +1,11 @@
-import { windowDimensionUtils } from './utils'
-import { getBase64TypeFile } from './file'
-import { parseImage, resizeImage, compressImage } from './image'
-import { useWindowDimensionHooks } from './hooks'
+import { windowDimensionUtil } from './utils'
+import { useWindowDimensionHook, useReloadAlertHook } from './hooks'
 
 export const utils = {
-  windowDimension: windowDimensionUtils
-}
-
-export const file = {
-  getBase64Type: getBase64TypeFile
-}
-
-export const image = {
-  parse: parseImage,
-  resize: resizeImage,
-  compress: compressImage
+  windowDimension: windowDimensionUtil
 }
 
 export const hooks = {
-  useWindowDimension: useWindowDimensionHooks
+  useWindowDimension: useWindowDimensionHook,
+  useReloadAlert: useReloadAlertHook
 }

@@ -1,10 +1,11 @@
 {
   "name": "reactils",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "React utility library",
   "author": "usama-asfar",
   "license": "MIT",
   "repository": "https://github.com/usama-asfar/reactils",
+  "homepage": "https://usama-asfar.github.io/reactils",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.ts",
